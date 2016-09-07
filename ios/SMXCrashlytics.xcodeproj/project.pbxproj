@@ -152,6 +152,7 @@
 					"$(SRCROOT)/../example/ios",
 					"$(SRCROOT)/../../../ios",
 					"$(SRCROOT)/../../../",
+					"$(SRCROOT)/../../nucleus-ios/Pods/Crashlytics/iOS/**",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -170,6 +171,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../example/node_modules/react-native/React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../nucleus-ios/Pods/Headers/Public/Crashlytics/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
